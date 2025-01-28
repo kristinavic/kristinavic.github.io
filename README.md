@@ -1,10 +1,6 @@
-<!--
-![](https://github.com/kristinavic/kristinavic/blob/main/header.png?raw=true) 
--->
-
 <h1 align="center"> Hi! I'm Kristina 👋 </h1>
 
-  <p align="center"> I'm enthusiastic software developer at the beginning of my developer path. 👩🏻‍💻 Currently focused on finishing diploma in HVE.📑 In any free moment left I'm either coding or finding other ways to occupy my restless brain with riddles of any kind 🧠</p>
+  <p align="center"> I'm enthusiastic software developer at the beginning of my developer path. 👩🏻‍💻 Currently focused on finishing diploma in HVE.📑🎓 In any free moment left I'm either coding or finding other ways to occupy my restless brain with riddles of any kind 🧠</p>
   <p align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjV6YWU4OGtlNzFvZmRhaTJxazVhM3hzMG44OTl0ZXc1a2o2b3JlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4xMBfFshcxJ0Q/giphy.gif" width="400">
   </p><br/>
 

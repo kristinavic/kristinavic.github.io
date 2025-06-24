@@ -1,8 +1,11 @@
 body, html {
+    color: #193249;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     margin: 0;
+    background-color: #FDFFFF;
 }
 
 
@@ -26,18 +29,47 @@ body, html {
 /* MAIN CONTENT */
 
 .main-content {
-    /* background-color: aquamarine; */
+    
     max-width: 62.5rem; /* 1000px */
     height: auto;
     margin: 0 auto;
+    padding: 2rem;
     border-radius: 0.25rem;
-    box-shadow: 0.625rem 0.3125rem 1.25rem rgba(10,10,13,.2);  /*10px 5px 20px*/
+    box-shadow: 0rem -2rem 3rem 2px rgb(75 75 75 / 9%);
+    font-size: 1.125rem; 
 }
 
+.intro {
+    padding: 15rem 0 8rem 0;
+}
+
+h1 {
+    font-weight: 600;
+    color: #0fa4af;
+    font-family: "Fraunces", serif;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 400;    
+    padding: 5rem 0 1rem 0;
+}
+
+h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
 /* PROJECTS */
 
 #projects {
+}
+
+
+.projects-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,3 +100,7 @@ body, html {
 
 
 /* CONTACT */
+
+#contact {
+    padding: 2rem 0;
+}

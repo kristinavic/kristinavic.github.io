@@ -5,7 +5,12 @@ body, html {
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    background-color: #FDFFFF;
+    background-color: #f4f6fa;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.125rem; /* 18px */
 }
 
 
@@ -20,9 +25,14 @@ body, html {
     z-index: 100;
 }
 
-.navbar ul {
+.navbar a  {
     list-style-type: none;
     width: 6.25rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.125rem; /* 18px */
+    padding: 0.5rem 0.75rem;
 }
 
 
@@ -34,60 +44,57 @@ body, html {
     height: auto;
     margin: 0 auto;
     padding: 2rem;
-    border-radius: 0.25rem;
-    box-shadow: 0rem -2rem 3rem 2px rgb(75 75 75 / 9%);
+    border-color: #0fa4af; */
+    
     font-size: 1.125rem; 
 }
 
 .intro {
-    padding: 15rem 0 8rem 0;
+    padding: 22rem 0;
+}
+
+h1, h2, h3 {
+    font-family: "League Spartan", sans-serif;    
+    font-weight: 500;    
+    color: #0fa4af;
+    margin: 0;
 }
 
 h1 {
     font-weight: 600;
-    color: #0fa4af;
-    font-family: "Fraunces", serif;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 h2 {
-    font-family: "Fraunces", serif;
-    font-size: 2rem;
-    font-weight: 400;    
+    font-size: 2.5rem;
     padding: 5rem 0 1rem 0;
 }
 
 h3 {
-    font-family: "Fraunces", serif;
     font-size: 1.5rem;
-    font-weight: 400;
 }
 
-/* PROJECTS */
+/* PORTFOLIO */
 
-#projects {
+#portfolio {
 }
 
 
 .projects-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 2rem 0;
 }
 .project-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    max-width: 60rem; /* 960px */
+    width: 27rem;
     margin-bottom: 2rem;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    box-shadow: 0.625rem 0.3125rem 1.25rem rgba(10,10,13,.2); /*10px 5px 20px*/
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: white -7px -8px 8px 4px, #00000026 2px 2px 13px 4px;
+    background: linear-gradient(-45deg, #ffffff6b, #0000000a);
 }
+
 .project-thumbnail {
     width: 30%;
     height: auto;

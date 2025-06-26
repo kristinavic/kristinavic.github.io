@@ -1,11 +1,11 @@
 body, html {
-    color: #193249;
+    color: #16263b;
     font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    background-color: #f4f6fa;
+    background-color: #ECF5F8;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 
 .navbar {
     /* background-color: cadetblue; */
-    color: white;
+    color: #ECF5F8;
     float: left;
     position: fixed;
     z-index: 100;
@@ -28,11 +28,11 @@ p {
 .navbar a  {
     list-style-type: none;
     width: 6.25rem;
-    color: #000000;
+    color: #16263b;
     text-decoration: none;
     font-weight: 400;
-    font-size: 1.125rem; /* 18px */
-    padding: 0.5rem 0.75rem;
+    font-size: 1rem; 
+    padding: 0.5rem 0;
 }
 
 
@@ -40,23 +40,27 @@ p {
 
 .main-content {
     
-    max-width: 62.5rem; /* 1000px */
+    max-width: 65rem; /* 1040px */
     height: auto;
     margin: 0 auto;
     padding: 2rem;
-    border-color: #0fa4af; */
-    
+    justify-items: center;
     font-size: 1.125rem; 
 }
 
 .intro {
     padding: 22rem 0;
+    text-align: left;
+}
+
+.color {
+    color: #06cbe0;
 }
 
 h1, h2, h3 {
     font-family: "League Spartan", sans-serif;    
-    font-weight: 500;    
-    color: #0fa4af;
+    font-weight: 500; 
+    color: #16263b; /* #0fa4af;*/
     margin: 0;
 }
 
@@ -74,6 +78,16 @@ h3 {
     font-size: 1.5rem;
 }
 
+a {
+    color: #16263b;
+    text-decoration: none;
+    font-weight: 500;;
+}
+
+a:hover {
+    color: #06cbe0;
+}
+
 /* PORTFOLIO */
 
 #portfolio {
@@ -83,25 +97,54 @@ h3 {
 .projects-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
     padding: 2rem 0;
 }
 .project-card {
-    width: 27rem;
-    margin-bottom: 2rem;
+    width: 40%;
+    max-height: 40rem;
+    margin: 1rem;
     padding: 2rem;
     border-radius: 0.5rem;
-    box-shadow: white -7px -8px 8px 4px, #00000026 2px 2px 13px 4px;
-    background: linear-gradient(-45deg, #ffffff6b, #0000000a);
+    /* box-shadow: white -7px -8px 8px 4px, #00000026 2px 2px 13px 4px; */
+    background: #ffffff69;
+    /* background: linear-gradient(-45deg, #ffffff6b, #0000000a);   */
 }
+
+.project-card p {
+    font-size: 1rem;
+}
+
 
 .project-thumbnail {
-    width: 30%;
-    height: auto;
-    border-radius: 0.25rem;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
 }
 
+.btn.source {
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    color: #16263b;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.025rem;
+    line-height: 2.5rem;
+}
 
+.btn.source:hover {
+    background-color: #ffffff;
+    color: #06cbe0;
+    /* box-shadow:  #00000026 2px 2px 3px 2px;  */
+}
+
+}
 
 /* ABOUT ME */
 

@@ -38,14 +38,15 @@ p {
 
 /* MAIN CONTENT */
 
-.main-content {
-    
+.main-content {    
     max-width: 65rem; /* 1040px */
     height: auto;
     margin: 0 auto;
     padding: 2rem;
     justify-items: center;
     font-size: 1.125rem; 
+
+    position: relative;
 }
 
 .intro {
@@ -148,7 +149,7 @@ a:hover {
 .btn.source:hover {
     background-color: #ffffff;
     color: #06cbe0;
-
+}
 
 
 
@@ -160,3 +161,5 @@ a:hover {
 #contact {
     padding: 2rem 0;
 }
+
+/* FOOTER */

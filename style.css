@@ -8,6 +8,12 @@ body, html {
     background-color: #ECF5F8;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     line-height: 1.5;
     font-size: 1.125rem; /* 18px */
@@ -163,3 +169,10 @@ a:hover {
 }
 
 /* FOOTER */
+footer{
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 0.75rem; 
+    color: #aaaaaa;
+    text-align: center;
+}

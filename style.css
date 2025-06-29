@@ -164,8 +164,27 @@ a:hover {
 
 /* CONTACT */
 
-#contact {
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 2rem 0;
+}
+
+.contact {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+
+.bi-envelope-at, .bi-github, .bi-linkedin {
+    width: 2rem;
+    height: 2rem;
+    justify-self: center;
 }
 
 /* FOOTER */

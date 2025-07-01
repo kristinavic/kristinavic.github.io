@@ -178,6 +178,7 @@ a:hover {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 1rem;
+    margin: 2rem;
 }
 
 

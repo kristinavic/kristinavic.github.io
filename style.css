@@ -42,6 +42,7 @@ p {
 }
 
 
+
 /* MAIN CONTENT */
 
 .main-content {    
@@ -51,9 +52,16 @@ p {
     padding: 2rem;
     justify-items: center;
     font-size: 1.125rem; 
-
     position: relative;
 }
+
+@media only screen and (min-width: 768px) {
+    .main-content {
+        max-width: 30rem; /* 480px */
+        font-size: 1rem;
+    }
+}
+
 
 .intro {
     padding: 22rem 0;
@@ -97,10 +105,6 @@ a:hover {
 
 /* PORTFOLIO */
 
-#portfolio {
-}
-
-
 .projects-container{
     display: flex;
     flex-wrap: wrap;
@@ -119,10 +123,21 @@ a:hover {
     /* background: linear-gradient(-45deg, #ffffff6b, #0000000a);   */
 }
 
+@media only screen and (min-width: 768px) {
+    .project-card {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
 .project-card p {
     font-size: 1rem;
 }
 
+.project-card a:last-child {
+    display: flex;
+    justify-self: center;
+}
 
 .project-thumbnail {
     width: 100%;
@@ -130,6 +145,10 @@ a:hover {
     overflow: hidden;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
+}
+
+.project-card.loading p {
+    align-items: center;
 }
 
 .skill {
@@ -140,21 +159,25 @@ a:hover {
 }
 
 .btn.source {
-    display: inline-block;
-    padding: 0 1rem;
+    display: inline;
+    padding: 1rem;
     margin-top: 0.5rem;
     background-color: #ffffff;
     color: #16263b;
     border-radius: 0.25rem;
     text-decoration: none;
     font-size: 1rem;
-    letter-spacing: 0.025rem;
-    line-height: 2.5rem;
 }
 
 .btn.source:hover {
     background-color: #ffffff;
     color: #06cbe0;
+}
+
+svg.bi.bi-github.source {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 1rem;
 }
 
 
@@ -181,6 +204,11 @@ a:hover {
     margin: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+    .contact {
+        margin: 1rem;
+    }
+}
 
 .bi-envelope-at, .bi-github, .bi-linkedin {
     width: 2rem;

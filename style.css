@@ -31,7 +31,6 @@ p {
 }
 
 .navbar a  {
-    list-style-type: none;
     width: 6.25rem;
     color: #16263b;
     text-decoration: none;
@@ -40,14 +39,31 @@ p {
     padding: 0.5rem 0;
 }
 
+.navbar ul li {
+    list-style-type: none;
+}
+
 .navbar .icon {
     display: none;
 }
 
-/* Responsive - hides all links, except Home */
-@media screen and (max-width: 600px) {
-  
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+
+    .navbar {
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .navbar ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10;
+    }
+   
 }
+
 
 
 

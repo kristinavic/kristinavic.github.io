@@ -24,7 +24,6 @@ p {
 /* NAVIGATION */
 
 .navbar {
-    /* background-color: cadetblue; */
     color: #ECF5F8;
     float: left;
     position: fixed;
@@ -221,6 +220,7 @@ svg.bi.bi-github.source {
 @media only screen and (min-width: 768px) {
     .contact {
         margin: 1rem;
+        font-size: 1rem;
     }
 }
 

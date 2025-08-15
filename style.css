@@ -19,7 +19,13 @@ p {
     font-size: 1.125rem; /* 18px */
 }
 
-
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
 
 /* NAVIGATION */
 
@@ -82,14 +88,6 @@ p {
     position: relative;
 }
 
-/* tablet breakpoint */
-@media only screen and (max-width: 768px) {
-    .main-content {
-        font-size: 1rem;
-    }
-}
-
-
 .intro {
     padding: 22rem 0;
     text-align: left;
@@ -130,6 +128,29 @@ a:hover {
     color: #06cbe0;
 }
 
+
+/* tablet breakpoint */
+@media only screen and (max-width: 768px) {
+    .main-content {
+        font-size: 1rem;
+    }
+}
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    .main-content {
+        padding: 0;
+        margin: 0 2rem;
+        width: auto;
+    }
+    
+    .intro {
+        padding: 18rem 0;
+    }
+}
+
+
+
 /* PORTFOLIO */
 
 .projects-container {
@@ -150,9 +171,6 @@ a:hover {
     background: #ffffff69;
 }
 
-@media only screen and (min-width: 768px) {
-
-} 
 
 .project-card p {
     font-size: 1rem;
@@ -212,7 +230,22 @@ svg.bi.bi-github.source {
     margin-right: 1rem;
 }
 
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    .project-card {
+        padding: 1rem;
+    }
 
+    .project-thumbnail {
+        height: 10rem;
+    }
+
+    p.project-description {
+    height: auto;
+    }
+
+
+}
 
 /* ABOUT ME */
 

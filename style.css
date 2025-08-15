@@ -19,13 +19,6 @@ p {
     font-size: 1.125rem; /* 18px */
 }
 
-/* mobile breakpoint */
-@media only screen and (max-width: 425px) {
-    p {
-        font-size: 1rem;
-        text-align: justify;
-    }
-}
 
 /* NAVIGATION */
 
@@ -52,28 +45,6 @@ p {
 .navbar .icon {
     display: none;
 }
-
-/* mobile breakpoint */
-@media only screen and (max-width: 425px) {
-
-    .navbar {
-        background-color: #ecf5f8;
-        width: 100%;
-        padding: 0.5rem;
-        justify-self: center;
-        font-size: 0.7rem;
-    }
-
-    .navbar ul {
-        padding: 0;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 10;
-    }
-   
-}
-
-
 
 
 /* MAIN CONTENT */
@@ -126,27 +97,6 @@ a {
 
 a:hover {
     color: #06cbe0;
-}
-
-
-/* tablet breakpoint */
-@media only screen and (max-width: 768px) {
-    .main-content {
-        font-size: 1rem;
-    }
-}
-
-/* mobile breakpoint */
-@media only screen and (max-width: 425px) {
-    .main-content {
-        padding: 0;
-        margin: 0 2rem;
-        width: auto;
-    }
-    
-    .intro {
-        padding: 18rem 0;
-    }
 }
 
 
@@ -230,22 +180,8 @@ svg.bi.bi-github.source {
     margin-right: 1rem;
 }
 
-/* mobile breakpoint */
-@media only screen and (max-width: 425px) {
-    .project-card {
-        padding: 1rem;
-    }
-
-    .project-thumbnail {
-        height: 10rem;
-    }
-
-    p.project-description {
-    height: auto;
-    }
 
 
-}
 
 /* ABOUT ME */
 
@@ -269,12 +205,6 @@ svg.bi.bi-github.source {
     margin: 2rem;
 }
 
-@media only screen and (min-width: 768px) {
-    .contact {
-        margin: 1rem;
-        font-size: 1rem;
-    }
-}
 
 .bi-envelope-at, .bi-github, .bi-linkedin {
     width: 2rem;
@@ -289,4 +219,100 @@ footer{
     font-size: 0.75rem; 
     color: #aaaaaa;
     text-align: center;
+}
+
+
+
+
+/*** breakpoints ***/
+
+/* BODY */
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+
+
+/* NAVIGATION */
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+
+    .navbar {
+        background-color: #ecf5f8;
+        width: 100%;
+        padding: 0.5rem;
+        justify-self: center;
+        font-size: 0.7rem;
+    }
+
+    .navbar ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10;
+    }
+   
+}
+
+/* MAIN CONTENT */ 
+
+/* tablet breakpoint */
+@media only screen and (max-width: 768px) {
+    .main-content {
+        font-size: 1rem;
+    }
+}
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    .main-content {
+        padding: 0;
+        margin: 0 2rem;
+        width: auto;
+    }
+    
+    .intro {
+        padding: 18rem 0;
+    }
+}
+
+
+/* PORTFOLIO */
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-thumbnail {
+        height: 10rem;
+    }
+
+    p.project-description {
+    height: auto;
+    }
+}
+
+
+/* CONTACT */ 
+
+/* tablet breakpoint */
+@media only screen and (min-width: 768px) {
+    .contact {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* mobile breakpoint */
+@media only screen and (max-width: 425px) {
+    .contact-container {
+        display: contents;
+    }
 }

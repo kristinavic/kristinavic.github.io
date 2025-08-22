@@ -47,6 +47,53 @@ p {
 }
 
 
+/* TOGGLE SWITCH */
+
+.toggle-switch {
+    float: right;
+    padding: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.toggle-switch input {
+    display: none;
+}
+
+.toggle-switch-border {
+    display: inline-flex;
+    align-items: center;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #ccc;
+    border-radius: 1rem;
+    position: relative;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.toggle-switch-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s;
+}
+
+/* when toggle is checked apply to .toggle-switch-border*/
+.toggle-switch input:checked + .toggle-switch-border {
+    background-color: #06cbe0;
+}
+
+/* when toggle is checked apply to .toggle-switch-dot */
+.toggle-switch input:checked + .toggle-switch-border .toggle-switch-dot {
+    transform: translateX(1.5rem);
+}
+
+
 /* MAIN CONTENT */
 
 .main-content {    

@@ -10,17 +10,17 @@ body, html {
     
     --dark-background-color:#16263b;
     --dark-primary:  #ECF5F8;
-    --dark-link: #05A0B1;
+    /*--dark-link: #05A0B1;*/
 
     
     --light-background-color: #ECF5F8;
     --light-primary: #16263b;
-    --light-link: #06cbe0;
+    /* --light-link: #06cbe0; */
 
 
     --background-color: var(--light-background-color);
     --primary: var(--light-primary);
-    --link: var(--light-link);
+    /* --link: var(--light-link); */
 }
 
 body{

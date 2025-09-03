@@ -21,7 +21,7 @@ toggle.addEventListener('click', () => {
     let mode = toggle.checked ? 'dark' : 'light' /* get current mode depending on toggle state */
     bodyCssProps.set('--background-color', bodyCssProps.get(`--${mode}-background-color`)) 
     bodyCssProps.set('--primary', bodyCssProps.get(`--${mode}-primary`)) 
-    // bodyCssProps.set('--link', bodyCssProps.get(`--${mode}-link`))   
+    bodyCssProps.set('--link', bodyCssProps.get(`--${mode}-link`))   
     /* set background color depending on mode */
 
 })
